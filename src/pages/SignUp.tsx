@@ -7,7 +7,7 @@ export default function SignUp() {
         <Flex justify="center" align="center" style={{ height: '100vh' }} className='bg-gray-100'>
             <Card shadow="sm" padding="lg" radius="md" withBorder className='w-96'>
                 <Flex direction="column" justify="center" gap="md">
-                    <div className='text-xl text-center font-bold mb-2'>Create a new account</div>
+                    <div className='text-xl text-center font-semibold mb-2'>Create a new account</div>
                     <div className='flex gap-3'>
                         <div className='flex-1 flex justify-center items-center gap-3 border border-neutral-200 p-1.5 rounded-md hover:text-blue-500 hover:cursor-pointer'>
                            <GoogleIcon/> Google
