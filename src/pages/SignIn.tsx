@@ -23,7 +23,7 @@ export default function SignUp() {
                     </div>
                     <div>
                         <PasswordInput label='Password' placeholder='Enter your password'></PasswordInput>
-                        <div className='text-xs mt-1 ml-1'>Forgot your password? <Link to='/auth/reset-password' className='text-blue-500'>Reset Password</Link></div>
+                        <div className='text-xs mt-1 ml-1'><Link to='/auth/reset-password' className='text-blue-500'>Forgot your password?</Link></div>
                     </div>
                     <Button className="mt-2">Sign In</Button>
                     <BottomText type='signip'></BottomText>
