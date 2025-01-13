@@ -6,7 +6,8 @@ function validateSchema(schema: z.ZodSchema) {
         try {
             const { success } = await schema.safeParse(req.body);
             if (success) {
-                return next();
+               next();
+               return;
             }
             res.status(400).json({ message: 'Invalid request data' })
         } catch (err) {
